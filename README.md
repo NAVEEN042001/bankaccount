@@ -18,7 +18,7 @@ public class BankAccount1 {
             return balance;
         }
         public static void main(String[] args) {
-            BankAccount1 account1 = new BankAccount1("Dhina", 123455676, 8764.0);
+            BankAccount1 account1 = new BankAccount1("Dhina", 12345568976, 8764.0);
             System.out.println("Holder Name: " + account1.getHolderName());
             System.out.println("Account Number: " + account1.getAccountNumber());
             System.out.println("Balance: $" + account1.getBalance());
